@@ -143,6 +143,8 @@ td {
     /* Стили для ячеек таблицы */
     padding-left: 15px;
     border: 1px solid #95a1bb;
+    font-weight: 400;
+    font-size: 14px;
 
 
 }
