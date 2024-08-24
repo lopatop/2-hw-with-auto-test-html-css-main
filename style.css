@@ -28,7 +28,7 @@ header span {
     /* Стили для первой секции */
     background-color: #fafaff;
     padding: 60px 0;
-    min-height: 1024px;
+    min-height: 100%;
 }
 
 .main-title {
@@ -65,7 +65,7 @@ select {
     width: 150px;
     height: 36px;
     appearance: none;
-    background-image: url(./ep_arrow-down.svg);
+    background-image: url("./ep_arrow-down.svg");
     background-repeat: no-repeat;
     background-position: right 12px top 50%;
 }
@@ -79,10 +79,14 @@ select {
 
 .frameworks-list {
     /* Стили для маркированного списка во второй секции */
-    list-style-image: url(./Vector.png);
+    list-style-image: url("./Vector.png");
     padding-left: 20px;
     font-weight: 400;
     font-size: 16px;
+    width: 80px;
+    height: 57px;
+    list-style-type: none;
+
 }
 
 .books-list {
@@ -90,6 +94,8 @@ select {
     font-weight: 400;
     font-size: 16px;
     padding-left: 20px;
+    width: 670px;
+    height: 57px;
 }
 
 .label {
@@ -134,14 +140,17 @@ select {
 table {
     /* Стили для таблицы */
     border-collapse: collapse;
+    border: 1px solid #95a1bb;
     width: 300px;
     height: 196px;
+    font-weight: 400;
+    font-size: 14px;
 }
 
 th,
 td {
     /* Стили для ячеек таблицы */
-    padding-left: 15px;
+    padding: 12px 15px;
     border: 1px solid #95a1bb;
     font-weight: 400;
     font-size: 14px;
